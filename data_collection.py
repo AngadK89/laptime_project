@@ -1,6 +1,4 @@
 import pandas as pd 
-from datetime import date
-
 import fastf1 as f1
 
 # f1.Cache.clear_cache()
@@ -67,7 +65,7 @@ def get_all_data(row):
     print("*" * 80)
     print(row['Year'], row['Location'])
     session = f1.get_session(row['Year'], row['RoundNumber'], row['Session'])
-    session.load(telemetry=False)
+    session.load()
     laps = session.laps
 
     # Selects all laps within 107% of the fastest time (i.e., typically within 4-5s of fastest time)
@@ -82,7 +80,7 @@ def get_all_data(row):
     weather_data = laps.get_weather_data().reset_index(drop=True)   
 
     # Filtering the laps & weather data to extract all of the relevant columns only
-    filtered_laps = laps.loc[:, ['Stint', 'Compound', 'TyreLife', 'FreshTyre', 'TrackStatus', 'LapTime']].reset_index(drop=True)
+    filtered_laps = laps.loc[:, ['Driver', 'Compound', 'TyreLife', 'FreshTyre', 'TrackStatus', 'LapTime']].reset_index(drop=True)
     filtered_weather = weather_data.loc[:, ~(weather_data.columns == 'Time')]
 
     # This is our calculated target variable - how many laps does the driver have left on this tire
@@ -94,14 +92,27 @@ def get_all_data(row):
 
 # Retrieving all of the required data for each race event. Each row represents a race, so each processed row returns its own 
 # dataframe containing all the data for that race. To generate one cumulative dataset, we concatenate all the resulting dfs vertically.
-retrieved_data = races.iloc[[0]].apply(get_all_data, axis=1)
+retrieved_data = races.iloc[[2]].apply(get_all_data, axis=1)
 total_data = pd.concat(retrieved_data.tolist(), ignore_index=True)
 total_data.to_csv("f1_data.csv", index=False)
 
 
+# Call the OpenAI API 
+# Give it a list of all the events (track + year)
+# For each event, it'll return a row containing all necessary track info
+
 '''
+Need to figure out how to collect track info:
+- Track length
+- Number of corners
+- No. Of high, mid, low speed corners
+- Track rotation
+- Number of straights 
+- Length of straights
+- Number of DRS zones
+
+
 Collected: 
- - Stint number 
  - Compound 
  - Tyre age
  - fresh typre
@@ -110,13 +121,7 @@ Collected:
  - Rainfall
  - Air temperature
 
- Need to figure out how to collect track info:
-- Track length
-- Number of corners
-- No. Of high, mid, low speed corners
-- Track rotation
-- Number of straights 
-- Length of straights
+
 
 Based on this, we will try to predict Laptime
 '''

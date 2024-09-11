@@ -5,6 +5,7 @@ Given any track’s information:
 - Track rotation
 - Number of straights 
 - Length of straights
+- Number of DRS zones
 
 Weather info:
 - Track temp 
@@ -14,7 +15,6 @@ Weather info:
 
 And lap info:
 - Sprint/race/quali session
-- Stint number (later stints are usually faster in races due to less fuel)
 - Tyre compound 
 - Tyre age 
 - Track status
