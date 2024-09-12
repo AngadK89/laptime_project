@@ -1,0 +1,223 @@
+RoundNumber,Location,Session,Year
+1,Spielberg,Qualifying,2020
+1,Spielberg,Race,2020
+2,Spielberg,Qualifying,2020
+2,Spielberg,Race,2020
+3,Budapest,Qualifying,2020
+3,Budapest,Race,2020
+4,Silverstone,Qualifying,2020
+4,Silverstone,Race,2020
+5,Silverstone,Qualifying,2020
+5,Silverstone,Race,2020
+6,Barcelona,Qualifying,2020
+6,Barcelona,Race,2020
+7,Spa-Francorchamps,Qualifying,2020
+7,Spa-Francorchamps,Race,2020
+8,Monza,Qualifying,2020
+8,Monza,Race,2020
+9,Mugello,Qualifying,2020
+9,Mugello,Race,2020
+10,Sochi,Qualifying,2020
+10,Sochi,Race,2020
+11,Nürburgring,Qualifying,2020
+11,Nürburgring,Race,2020
+12,Portimão,Qualifying,2020
+12,Portimão,Race,2020
+13,Imola,Qualifying,2020
+13,Imola,Race,2020
+14,Istanbul,Qualifying,2020
+14,Istanbul,Race,2020
+15,Sakhir,Qualifying,2020
+15,Sakhir,Race,2020
+16,Sakhir,Qualifying,2020
+16,Sakhir,Race,2020
+17,Yas Island,Qualifying,2020
+17,Yas Island,Race,2020
+1,Sakhir,Qualifying,2021
+1,Sakhir,Race,2021
+2,Imola,Qualifying,2021
+2,Imola,Race,2021
+3,Portimão,Qualifying,2021
+3,Portimão,Race,2021
+4,Barcelona,Qualifying,2021
+4,Barcelona,Race,2021
+5,Monte Carlo,Qualifying,2021
+5,Monte Carlo,Race,2021
+6,Baku,Qualifying,2021
+6,Baku,Race,2021
+7,Le Castellet,Qualifying,2021
+7,Le Castellet,Race,2021
+8,Spielberg,Qualifying,2021
+8,Spielberg,Race,2021
+9,Spielberg,Qualifying,2021
+9,Spielberg,Race,2021
+10,Silverstone,Qualifying,2021
+10,Silverstone,Sprint,2021
+10,Silverstone,Race,2021
+11,Budapest,Qualifying,2021
+11,Budapest,Race,2021
+12,Spa-Francorchamps,Qualifying,2021
+12,Spa-Francorchamps,Race,2021
+13,Zandvoort,Qualifying,2021
+13,Zandvoort,Race,2021
+14,Monza,Qualifying,2021
+14,Monza,Sprint,2021
+14,Monza,Race,2021
+15,Sochi,Qualifying,2021
+15,Sochi,Race,2021
+16,Istanbul,Qualifying,2021
+16,Istanbul,Race,2021
+17,Austin,Qualifying,2021
+17,Austin,Race,2021
+18,Mexico City,Qualifying,2021
+18,Mexico City,Race,2021
+19,São Paulo,Qualifying,2021
+19,São Paulo,Sprint,2021
+19,São Paulo,Race,2021
+20,Lusail,Qualifying,2021
+20,Lusail,Race,2021
+21,Jeddah,Qualifying,2021
+21,Jeddah,Race,2021
+22,Yas Island,Qualifying,2021
+22,Yas Island,Race,2021
+1,Sakhir,Qualifying,2022
+1,Sakhir,Race,2022
+2,Jeddah,Qualifying,2022
+2,Jeddah,Race,2022
+3,Melbourne,Qualifying,2022
+3,Melbourne,Race,2022
+4,Imola,Qualifying,2022
+4,Imola,Sprint,2022
+4,Imola,Race,2022
+5,Miami,Qualifying,2022
+5,Miami,Race,2022
+6,Barcelona,Qualifying,2022
+6,Barcelona,Race,2022
+7,Monaco,Qualifying,2022
+7,Monaco,Race,2022
+8,Baku,Qualifying,2022
+8,Baku,Race,2022
+9,Montréal,Qualifying,2022
+9,Montréal,Race,2022
+10,Silverstone,Qualifying,2022
+10,Silverstone,Race,2022
+11,Spielberg,Qualifying,2022
+11,Spielberg,Sprint,2022
+11,Spielberg,Race,2022
+12,Le Castellet,Qualifying,2022
+12,Le Castellet,Race,2022
+13,Budapest,Qualifying,2022
+13,Budapest,Race,2022
+14,Spa-Francorchamps,Qualifying,2022
+14,Spa-Francorchamps,Race,2022
+15,Zandvoort,Qualifying,2022
+15,Zandvoort,Race,2022
+16,Monza,Qualifying,2022
+16,Monza,Race,2022
+17,Marina Bay,Qualifying,2022
+17,Marina Bay,Race,2022
+18,Suzuka,Qualifying,2022
+18,Suzuka,Race,2022
+19,Austin,Qualifying,2022
+19,Austin,Race,2022
+20,Mexico City,Qualifying,2022
+20,Mexico City,Race,2022
+21,São Paulo,Qualifying,2022
+21,São Paulo,Sprint,2022
+21,São Paulo,Race,2022
+22,Yas Island,Qualifying,2022
+22,Yas Island,Race,2022
+1,Sakhir,Qualifying,2023
+1,Sakhir,Race,2023
+2,Jeddah,Qualifying,2023
+2,Jeddah,Race,2023
+3,Melbourne,Qualifying,2023
+3,Melbourne,Race,2023
+4,Baku,Qualifying,2023
+4,Baku,Sprint Shootout,2023
+4,Baku,Sprint,2023
+4,Baku,Race,2023
+5,Miami,Qualifying,2023
+5,Miami,Race,2023
+6,Monaco,Qualifying,2023
+6,Monaco,Race,2023
+7,Barcelona,Qualifying,2023
+7,Barcelona,Race,2023
+8,Montréal,Qualifying,2023
+8,Montréal,Race,2023
+9,Spielberg,Qualifying,2023
+9,Spielberg,Sprint Shootout,2023
+9,Spielberg,Sprint,2023
+9,Spielberg,Race,2023
+10,Silverstone,Qualifying,2023
+10,Silverstone,Race,2023
+11,Budapest,Qualifying,2023
+11,Budapest,Race,2023
+12,Spa-Francorchamps,Qualifying,2023
+12,Spa-Francorchamps,Sprint Shootout,2023
+12,Spa-Francorchamps,Sprint,2023
+12,Spa-Francorchamps,Race,2023
+13,Zandvoort,Qualifying,2023
+13,Zandvoort,Race,2023
+14,Monza,Qualifying,2023
+14,Monza,Race,2023
+15,Marina Bay,Qualifying,2023
+15,Marina Bay,Race,2023
+16,Suzuka,Qualifying,2023
+16,Suzuka,Race,2023
+17,Lusail,Qualifying,2023
+17,Lusail,Sprint Shootout,2023
+17,Lusail,Sprint,2023
+17,Lusail,Race,2023
+18,Austin,Qualifying,2023
+18,Austin,Sprint Shootout,2023
+18,Austin,Sprint,2023
+18,Austin,Race,2023
+19,Mexico City,Qualifying,2023
+19,Mexico City,Race,2023
+20,São Paulo,Qualifying,2023
+20,São Paulo,Sprint Shootout,2023
+20,São Paulo,Sprint,2023
+20,São Paulo,Race,2023
+21,Las Vegas,Qualifying,2023
+21,Las Vegas,Race,2023
+22,Yas Island,Qualifying,2023
+22,Yas Island,Race,2023
+1,Sakhir,Qualifying,2024
+1,Sakhir,Race,2024
+2,Jeddah,Qualifying,2024
+2,Jeddah,Race,2024
+3,Melbourne,Qualifying,2024
+3,Melbourne,Race,2024
+4,Suzuka,Qualifying,2024
+4,Suzuka,Race,2024
+5,Shanghai,Sprint Qualifying,2024
+5,Shanghai,Sprint,2024
+5,Shanghai,Qualifying,2024
+5,Shanghai,Race,2024
+6,Miami,Sprint Qualifying,2024
+6,Miami,Sprint,2024
+6,Miami,Qualifying,2024
+6,Miami,Race,2024
+7,Imola,Qualifying,2024
+7,Imola,Race,2024
+8,Monaco,Qualifying,2024
+8,Monaco,Race,2024
+9,Montréal,Qualifying,2024
+9,Montréal,Race,2024
+10,Barcelona,Qualifying,2024
+10,Barcelona,Race,2024
+11,Spielberg,Sprint Qualifying,2024
+11,Spielberg,Sprint,2024
+11,Spielberg,Qualifying,2024
+11,Spielberg,Race,2024
+12,Silverstone,Qualifying,2024
+12,Silverstone,Race,2024
+13,Budapest,Qualifying,2024
+13,Budapest,Race,2024
+14,Spa-Francorchamps,Qualifying,2024
+14,Spa-Francorchamps,Race,2024
+15,Zandvoort,Qualifying,2024
+15,Zandvoort,Race,2024
+16,Monza,Qualifying,2024
+16,Monza,Race,2024
