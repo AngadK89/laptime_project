@@ -10,10 +10,14 @@ Need to figure out how to collect track info:
 - Number of corners
 - No. Of high, mid, low speed corners
 - Track rotation
-- Number of straights 
-- Length of straights
 - Number of DRS zones
+
+This will be done manually as using API calls leads to high variance in results for the same query 
++ 
+has higher probability of inaccurate results as compared to manually using the GPT web applications
 '''
+
+
 
 API_KEY = os.getenv("OPENAI_KEY")
 
@@ -74,8 +78,3 @@ print(sessions.shape[0], batch_size)
 print(get_track_data(str(unique_tracks[(unique_tracks['Location'] == 'Jeddah') & (unique_tracks['Year'] == 2021)].values.tolist())))
 # track_data.to_csv("track_data.csv", index=False)
 
-'''
-This will be done manually as using API calls leads to high variance in results for the same query 
-+ 
-has higher probability of inaccurate results as compared to manually using the GPT web applications
-'''
