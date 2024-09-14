@@ -101,7 +101,6 @@ def get_track_data(row):
 
 
 # Create the list of all column names that we require
-# TODO: Need to add the for loop back in
 column_names = ["Location", "Year", "TrackLength", "NumDrs", "NumCorners", "TrackRotation"]
 
 for i in range(1, 28):
