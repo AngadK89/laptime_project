@@ -23,7 +23,7 @@ And information about the lap we are trying to predict:
 <h2>Project Process</h2>
 In order to successfully complete this task, I will need to perform the following tasks:
 <ol>
-  <li>Extract necessary data using the FastF1 API (contains Formula 1 data), utilising the OpenAI API or other Formula 1 related APIs to fill in information that is not available in FastF1.</li>
+  <li>Extract necessary data using the [FastF1 API] (https://docs.fastf1.dev/index.html) (contains Formula 1 data), utilising the [OpenAI API] (https://platform.openai.com/docs/overview) or other Formula 1 related APIs to fill in information that is not available in FastF1.</li>
   <li>Preprocess the data to perform feature selection, feature extraction, scaling, and transformations. This helps prepare the dataset for the model.</li>
   <li>Experiment with different regression models and identify whichever works best, leading to minimal overfitting and maximising the accuracy of the model.</li>
   <li>Optimising results using hyperparameter tuning and further data preprocessing modifications.</li> 
