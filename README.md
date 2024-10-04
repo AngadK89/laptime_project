@@ -1,5 +1,5 @@
 <h2>Project Overview</h2>
-The goal of this project is to be able to predict the lap time of a given Formula 1 car around any track. However, rather than just limiting this to the pool of known Formula 1 race tracks, this will be abstracted out to any race track in general. To do so, we will use the following track information:
+The goal of this project is to be able to predict the lap time of a given Formula 1 car around any track. However, rather than just limiting this to the pool of known Formula 1 race tracks, this is abstracted out to any race track in general. To do so, we use the following track information:
 - Track length
 - Number of corners
 - Track rotation
@@ -7,7 +7,7 @@ The goal of this project is to be able to predict the lap time of a given Formul
 - Spatial coordinates of each corner on track
 Particularly, this last feature set is meant to provide the model with a rough geospatial map of the track, helping it understand the track layout.
 
-Moreover, we will also supply further information to the model, such as weather information, namely:
+Moreover, we also supply further information to the model, such as weather information, namely:
 - Track temperature
 - Air temperature
 - Rainfall 
@@ -23,7 +23,7 @@ And information about the lap we are trying to predict:
 <h2>Project Process</h2>
 In order to successfully complete this task, I will need to perform the following tasks:
 <ol>
-  <li>Extract necessary data using the [FastF1 API] (https://docs.fastf1.dev/index.html) (contains Formula 1 data), utilising the [OpenAI API] (https://platform.openai.com/docs/overview) or other Formula 1 related APIs to fill in information that is not available in FastF1.</li>
+  <li>Extract necessary data using the <a href="https://docs.fastf1.dev/index.html">FastF1 API</a> (contains Formula 1 data). I have also utilised the <a href="https://platform.openai.com/docs/overview">OpenAI API</a> to fill in information such as track length and number of DRS zones, that is not available in FastF1.</li>
   <li>Preprocess the data to perform feature selection, feature extraction, scaling, and transformations. This helps prepare the dataset for the model.</li>
   <li>Experiment with different regression models and identify whichever works best, leading to minimal overfitting and maximising the accuracy of the model.</li>
   <li>Optimising results using hyperparameter tuning and further data preprocessing modifications.</li> 
